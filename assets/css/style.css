@@ -1,0 +1,331 @@
+/*#2988BC light blue
+#2F496E dark blue
+#F4EADE off white
+#ED8C72 orange*/
+
+html {
+    height: 100%;
+}
+
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #F4EADE;
+    min-height: 100%;
+/*        display: flex;
+    flex-direction: column;*/
+}
+
+#hide-display {
+    display: none;
+}
+
+.space {
+    min-height: 380px;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0 !important;
+    background-color: #FF8640 !important;
+    z-index: 9999 !important;
+    border: 0 !important;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-default,
+.navbar-toggle {
+    border-color: transparent !important;
+    color: #fff !important;
+}
+
+.reelLogo {
+    width: 35px;
+    height: 35px;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+    background-color: #2988BC !important;
+    color: #ffffff !important;
+    padding: 100px 25px !important;
+    margin-bottom: 0px !important;
+    width: auto;
+    height: 95%;
+    min-height: 150% !important;
+    /*margin-bottom: 150px !important;*/
+}
+
+.btn-danger {
+    background-color: #FF8640 !important;
+    border-color: #ED8C72 !important;
+}
+
+.bg-grey {
+    background: #f6f6f6;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+
+/*.carousel-control.right,
+.carousel-control.left {
+    background-image: none !important;
+    color: #f4511e !important;
+}
+
+.carousel-indicators li {
+    border-color: #f4511e !important;
+}
+
+.carousel-indicators li.active {
+    background-color: #f4511e;
+}*/
+
+.placeholderSidebarLeft {
+    background-color: #2988BC;
+    /*    height: auto;
+*/
+    min-height: 445px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .35);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 75%;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.main-movie-data-container {
+    background-color: #2988BC;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .35);
+    display: inline-block;
+    width: 75%;
+    margin-top: -20px;
+}
+
+.movieNameDisplay {
+    background-color: inherit;
+    font-size: 36px;
+    color: white;
+}
+
+.moviePlotDisplay {
+    background-color: inherit;
+    font-size: 18px;
+    color: white;
+}
+
+.placeholderSidebarRight {
+    background-color: #2988BC;
+    min-height: 445px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .35);
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 75%;
+    /* Font styles */
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    /*    padding-left: 30%;
+    padding-right: 30%;*/
+}
+
+.rating-input-sidebar h2 {
+    font-size: 18px;
+    background-color: black;
+    color: yellow;
+    padding-left: 100% padding-right: 100%;
+}
+
+.questions-here {
+    background-color: #2988BC;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    margin: auto;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .35);
+    border-radius: 5px;
+    color: white;
+}
+
+.btn-warning {
+    margin-top: 5px;
+}
+
+.submit-button {
+    width: 50% !important;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #27496d;
+    margin-bottom: 10px !important;
+}
+
+#playlist-name {
+    width: 50%;
+    height: 34px;
+    margin: auto;
+    padding: 8px 14px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.question-buttons {
+    width: 50% !important;
+    margin: auto;
+    color: #fff;
+    background-color: #6496c8;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px #27496d;
+    margin-bottom: 10px !important;
+}
+
+.question-buttons:focus {
+    background-color: #417cb8;
+    box-shadow: 0 5px #27496d;
+    transform: translateY(5px);
+}
+
+.buttonFocused {
+    background-color: #7a7b7c !important;
+    color: #fff !important;
+    box-shadow: 0 5px #27496d;
+    transform: translateY(5px);
+}
+
+.purchase-container {
+    border: 1px solid black;
+    height: 110px;
+    width: 500px;
+    margin: auto;
+}
+
+.icons {
+    height: 75px;
+    width: 75px;
+    margin: auto;
+}
+
+.item span {
+    font-style: normal;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #2988BC;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    height: 15%;
+    margin-top: auto;
+}
+
+footer p {
+    background-color: #FF8640 !important;
+    color: #ffffff !important;
+}
+
+.spanLA {
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.spanEmail {
+    padding-left: 40px;
+
+}
+
+.movie-player-container {
+    display: inline;
+}
+
+.left-arrow {
+    display: inline;
+}
+
+.right-arrow {
+    display: inline;
+}
+
+#jump-to-here {
+    background-color: #F4EADE;
+}
+
+#myPage {
+    background-color: #F4EADE;
+}
+
+.col-sm-12 {
+    background-color: #F4EADE;
+}
+
+.movie-info-container {
+    background-color: #2988BC;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .35);
+    display: inline-block;
+    /*margin-top: 10%;*/
+    margin-bottom: 5%;
+    /* Font styles */
+    font-weight: bold;
+    text-decoration: none;
+    min-width: 100%;
+}
+
+.movie-title-text {
+    font-size: 25px;
+    color: white;
+}
+
+.movie-summary-text {
+    font-size: 18px;
+    color: white;
+}
+
+#render-div {
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
